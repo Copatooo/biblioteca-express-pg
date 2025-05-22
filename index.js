@@ -25,3 +25,5 @@ app.get('/categorias', async (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
+ATABASE_URL=postgres://admin:senha123@dpg-c1b2h4g1f1234k8r1ps0-a.oregon-postgres.render.com:5432/biblioteca_pg
+
